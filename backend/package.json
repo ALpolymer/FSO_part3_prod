@@ -6,14 +6,12 @@
   "scripts": {
     "dev": "node --watch index.js",
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cp:backend": "cd /Users/elalek/Desktop/code/FSO/FSO_part3_prod && rm -rf backend && cp -r /Users/elalek/Desktop/code/FSO/FullstackOpen/Exercises/part3/phonebook/backend /Users/elalek/Desktop/code/FSO/FSO_part3_prod"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Alexandros Polymeros",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
     "express": "^4.21.2",
     "mongoose": "^8.12.1",
     "morgan": "^1.10.0"
